@@ -1,0 +1,3 @@
+training_source,test_set,mapping,n_samples,n_impolite_0,n_polite_1,accuracy,precision,recall,f1,roc_auc,status,reason,tn,fp,fn,tp,prediction_csv
+Wikipedia,data/intel_cleaned/intel_test_mapping_a.csv,A,5099,2532,2567,0.7760345165718768,0.7892813641900122,0.7573042462017919,0.772962226640159,0.8587408787312043,completed,,2013,519,623,1944,outputs/intel_bow/wikipedia_intel_mapping_a_predictions.csv
+Stack Exchange,data/intel_cleaned/intel_test_mapping_a.csv,A,5099,2532,2567,0.6938615414787214,0.6706241519674355,0.7701597195169458,0.7169537624660018,0.7716908033732309,completed,,1561,971,590,1977,outputs/intel_bow/stack_exchange_intel_mapping_a_predictions.csv

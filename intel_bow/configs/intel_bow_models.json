@@ -1,0 +1,36 @@
+{
+  "test_csv": "data/intel_cleaned/intel_test_mapping_a.csv",
+  "output_dir": "outputs/intel_bow",
+  "source_repository": {
+    "url": "https://github.com/jiayouwu262-tech/CS376",
+    "revision": "71f48b42c926feb679fc225364bea0e09f59cacb",
+    "script": "stanford_replicate.py",
+    "source_sklearn_version": "1.9.1"
+  },
+  "models": [
+    {
+      "training_source": "Wikipedia",
+      "model_path": "../results/model_BoW_wiki.joblib",
+      "vectorizer_path": null,
+      "polite_class": 1,
+      "input_format": "dataframe_text",
+      "require_text_only_unigrams": true,
+      "python_paths": [],
+      "reference_stanford_accuracy_percent": 59.721380981223504,
+      "feature_definition": "Group CountVectorizer(min_df=10), unigram counts, lowercase=True, default token pattern; LinearSVC(C=1.0,max_iter=20000,random_state=42)",
+      "source_model_url": "https://github.com/jiayouwu262-tech/CS376/blob/71f48b42c926feb679fc225364bea0e09f59cacb/results/model_BoW_wiki.joblib"
+    },
+    {
+      "training_source": "Stack Exchange",
+      "model_path": "../results/model_BoW_se.joblib",
+      "vectorizer_path": null,
+      "polite_class": 1,
+      "input_format": "dataframe_text",
+      "require_text_only_unigrams": true,
+      "python_paths": [],
+      "reference_stanford_accuracy_percent": 71.07438016528926,
+      "feature_definition": "Group CountVectorizer(min_df=10), unigram counts, lowercase=True, default token pattern; LinearSVC(C=1.0,max_iter=20000,random_state=42)",
+      "source_model_url": "https://github.com/jiayouwu262-tech/CS376/blob/71f48b42c926feb679fc225364bea0e09f59cacb/results/model_BoW_se.joblib"
+    }
+  ]
+}
