@@ -1,3 +1,0 @@
-model,training_source,test_set,mapping,eval,n_samples,n_polite_1,n_impolite_0,accuracy,precision_polite,recall_polite,f1_polite,roc_auc,tn,fp,fn,tp,prediction_csv,status
-Ling,Wikipedia,Intel official test,A,cross-domain,5099,2567,2532,0.8350656991566974,0.8339783281733746,0.839501363459291,0.8367307318967191,0.9175679467983171,2103,429,412,2155,outputs/wikipedia_intel_mapping_a_predictions.csv,completed
-Ling,Stack Exchange,Intel official test,A,cross-domain,5099,2567,2532,0.7440674642086683,0.7169876203576341,0.8122321776392676,0.7616438356164383,0.8271348400004677,1709,823,482,2085,outputs/stack_exchange_intel_mapping_a_predictions.csv,completed

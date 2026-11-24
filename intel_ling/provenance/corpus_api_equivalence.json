@@ -1,7 +1,0 @@
-{
-  "status": "PASS",
-  "n": 32,
-  "n_strategies": 21,
-  "corpus_transform_equals_rowwise_features": true,
-  "constructor_settings": "TextParser(verbosity=1000); PolitenessStrategies().transform(corpus, markers=False)"
-}
