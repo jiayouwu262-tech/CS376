@@ -1,0 +1,22 @@
+[
+  {
+    "path": "../intel_bow/outputs/intel_bow/intel_mapping_a_sample_registry.csv",
+    "sha256": "ff9665b9a965d19438a201c36a36466d955b5bbc56a03f11253c7802eb9db6dd"
+  },
+  {
+    "path": "../intel_bow/outputs/intel_bow/metrics_summary.csv",
+    "sha256": "9d83e67079d6075446942d7b52b1ae6eb011a8ae841899e7ec988d82b18b38be"
+  },
+  {
+    "path": "../intel_bow/outputs/intel_bow/stack_exchange_intel_mapping_a_predictions.csv",
+    "sha256": "1533d41eb24fbd42385b43f54a9aa4167c2b5c94324ff309034d153691bbdbb2"
+  },
+  {
+    "path": "../intel_bow/outputs/intel_bow/wikipedia_intel_mapping_a_predictions.csv",
+    "sha256": "59b8b136efd01d3f34e8bedc224b50ebab6d2bf45a646e6f47932d71ed65b9a6"
+  },
+  {
+    "path": "../intel_bow/data/intel_cleaned/intel_test_mapping_a.csv",
+    "sha256": "bfc550df7cdc13529278faa6e57f09f720fea48ce7e7cbeea30d35aed4c4265f"
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "test_csv": "../intel_bow/data/intel_cleaned/intel_test_mapping_a.csv",
+  "test_sha256": "bfc550df7cdc13529278faa6e57f09f720fea48ce7e7cbeea30d35aed4c4265f",
+  "n_samples": 5099,
+  "feature_csv": "features/intel_test_mapping_a_ling_features.csv",
+  "feature_sha256": "ffa16cf268d106a2f080c4fd160c44bad5767770afde0fc2001c497822de8cfa",
+  "strategy_columns": [
+    "feature_politeness_==1st_person==",
+    "feature_politeness_==1st_person_pl.==",
+    "feature_politeness_==1st_person_start==",
+    "feature_politeness_==2nd_person==",
+    "feature_politeness_==2nd_person_start==",
+    "feature_politeness_==Apologizing==",
+    "feature_politeness_==Deference==",
+    "feature_politeness_==Direct_question==",
+    "feature_politeness_==Direct_start==",
+    "feature_politeness_==Factuality==",
+    "feature_politeness_==Gratitude==",
+    "feature_politeness_==HASHEDGE==",
+    "feature_politeness_==HASNEGATIVE==",
+    "feature_politeness_==HASPOSITIVE==",
+    "feature_politeness_==Hedges==",
+    "feature_politeness_==INDICATIVE==",
+    "feature_politeness_==Indirect_(btw)==",
+    "feature_politeness_==Indirect_(greeting)==",
+    "feature_politeness_==Please==",
+    "feature_politeness_==Please_start==",
+    "feature_politeness_==SUBJUNCTIVE=="
+  ],
+  "strategy_dtype": "integer 0/1; missing extraction is NaN and blocks evaluation",
+  "environment": {
+    "python": "3.13.7",
+    "convokit": "5.0.0",
+    "spacy": "3.8.18",
+    "en-core-web-sm": "3.8.0",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.3.2",
+    "scipy": "1.16.1",
+    "pandas": "2.3.2",
+    "joblib": "1.5.2",
+    "nltk": "3.10.4"
+  },
+  "failures": 0,
+  "successful_all_zero_strategy_rows": 3,
+  "successful_all_zero_sample_ids": [
+    "intel_test_000050",
+    "intel_test_000759",
+    "intel_test_010037"
+  ],
+  "nonzero_feature_values": 24062,
+  "settings": {
+    "spacy_model": "en_core_web_sm",
+    "mode": "parse",
+    "disabled_components": [
+      "ner"
+    ],
+    "strategy_collection": "politeness_api",
+    "markers": false,
+    "smoke_n": 32
+  },
+  "spacy_pipeline": [
+    "tok2vec",
+    "tagger",
+    "parser",
+    "attribute_ruler",
+    "lemmatizer"
+  ],
+  "spacy_disabled": [
+    "senter",
+    "ner"
+  ],
+  "spacy_model_meta": {
+    "lang": "en",
+    "name": "core_web_sm",
+    "version": "3.8.0",
+    "spacy_version": ">=3.8.0,<3.9.0"
+  },
+  "implementation": "ConvoKit TextParser.transform_utterance then PolitenessStrategies.transform_utterance(markers=False); same core functions as group's corpus transform",
+  "source_file_hashes": {
+    "convokit.text_processing.textParser": "ea53eab1daa07e24c4950a7b575f07de37c939eb9c25e010be691d53853c40f2",
+    "convokit.politenessStrategies.politenessStrategies": "ca4635978d2ee3494c43141a0783ad84e435964120943cff978d4e94c0f14f7b"
+  },
+  "elapsed_seconds": 23.34306139999535,
+  "training_environment_note": "Group repository did not lock ConvoKit/spaCy/language-model versions; current run pins actual versions and preserves original call settings."
+}

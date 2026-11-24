@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "parse_failures": 0,
+  "bow_preserved_file_count": 5,
+  "metrics_independently_recomputed": true,
+  "auc_recomputed_via_rank_sum": true,
+  "models": [
+    {
+      "training_source": "Wikipedia",
+      "n": 5099,
+      "accuracy": 0.8350656991566974,
+      "precision_polite": 0.8339783281733746,
+      "recall_polite": 0.839501363459291,
+      "f1_polite": 0.8367307318967191,
+      "roc_auc": 0.917567946798317,
+      "status": "PASS",
+      "tn": 2103,
+      "fp": 429,
+      "fn": 412,
+      "tp": 2155,
+      "ids_and_labels_match_bow": true,
+      "fit_methods_forbidden": true,
+      "frozen_model_unchanged": true
+    },
+    {
+      "training_source": "Stack Exchange",
+      "n": 5099,
+      "accuracy": 0.7440674642086683,
+      "precision_polite": 0.7169876203576341,
+      "recall_polite": 0.8122321776392676,
+      "f1_polite": 0.7616438356164383,
+      "roc_auc": 0.8271348400004677,
+      "status": "PASS",
+      "tn": 1709,
+      "fp": 823,
+      "fn": 482,
+      "tp": 2085,
+      "ids_and_labels_match_bow": true,
+      "fit_methods_forbidden": true,
+      "frozen_model_unchanged": true
+    }
+  ]
+}
