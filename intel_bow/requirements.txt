@@ -1,9 +1,0 @@
-# Tested with Python 3.13.7; use sklearn 1.9.1 to load the fitted pipelines.
-scikit-learn==1.9.1
-numpy==2.3.2
-scipy==1.16.1
-pandas==2.3.2
-joblib==1.5.2
-datasets==5.2.0
-pyarrow==26.0.1
-requests==2.32.5
