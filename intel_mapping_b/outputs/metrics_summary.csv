@@ -1,0 +1,5 @@
+model,train,test,mapping,eval,n,n_positive_1,n_negative_0,accuracy,precision_polite,recall_polite,f1_polite,roc_auc,tn,fp,fn,tp,prediction_csv,status
+BoW,Wikipedia,Intel,B,cross-domain,10200,5115,5085,0.7352941176470589,0.7083692838654012,0.8025415444770283,0.7525206232813932,0.8092336054425692,3395,1690,1010,4105,outputs/bow_wikipedia_mapping_b_predictions.csv,completed
+Ling,Wikipedia,Intel,B,cross-domain,10200,5115,5085,0.7920588235294118,0.7531281704430166,0.870772238514174,0.8076888203826276,0.8675687121476445,3625,1460,661,4454,outputs/ling_wikipedia_mapping_b_predictions.csv,completed
+BoW,Stack Exchange,Intel,B,cross-domain,10200,5115,5085,0.6367647058823529,0.600370159453303,0.8244379276637341,0.6947854024219458,0.6983669408904921,2278,2807,898,4217,outputs/bow_stack_exchange_mapping_b_predictions.csv,completed
+Ling,Stack Exchange,Intel,B,cross-domain,10200,5115,5085,0.6717647058823529,0.6267757210503659,0.853958944281525,0.7229394240317776,0.740626476007578,2484,2601,747,4368,outputs/ling_stack_exchange_mapping_b_predictions.csv,completed

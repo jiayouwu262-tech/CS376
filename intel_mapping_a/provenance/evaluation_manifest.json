@@ -1,0 +1,55 @@
+{
+  "mapping": "A",
+  "environment": {
+    "python": "3.13.7",
+    "convokit": "5.0.0",
+    "spacy": "3.8.18",
+    "en-core-web-sm": "3.8.0",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.3.2",
+    "scipy": "1.16.1",
+    "pandas": "2.3.2",
+    "joblib": "1.5.2",
+    "nltk": "3.10.4"
+  },
+  "test_sha256": "bfc550df7cdc13529278faa6e57f09f720fea48ce7e7cbeea30d35aed4c4265f",
+  "config_sha256": "67f49610791cda19d52aae15587795570f3f12eb0d3148a2a8c94198518ba984",
+  "runs": [
+    {
+      "model": "BoW",
+      "train": "Wikipedia",
+      "path": "../results/model_BoW_wiki.joblib",
+      "sha256": "6a29d67cc5c9fefdeb5ec0ddf443e92757d10e2189199d09b87d2ed59c51f275",
+      "origin": "existing group fitted pipeline; no retraining",
+      "prediction_csv": "outputs/bow_wikipedia_mapping_a_predictions.csv",
+      "prediction_sha256": "9705114d58ba0a39bf2764af5957e9446491d93a3a63934f372c8298380f00f5"
+    },
+    {
+      "model": "Ling",
+      "train": "Wikipedia",
+      "path": "../results/model_Ling_wiki.joblib",
+      "sha256": "f6ba1c19c4cdb92d832d9f7f4e39e63187d5e2714e22d2bf97db8c0177ddd68c",
+      "origin": "existing group fitted pipeline; no retraining",
+      "prediction_csv": "outputs/ling_wikipedia_mapping_a_predictions.csv",
+      "prediction_sha256": "12d81dd6512ec33a9bfb023001ceeea64d4a67abb21f37811ce2d15277839038"
+    },
+    {
+      "model": "BoW",
+      "train": "Stack Exchange",
+      "path": "../results/model_BoW_se.joblib",
+      "sha256": "406502aad0ab54b4632649154cce48d0f2d2d452d4553f30353100eda18f6f9e",
+      "origin": "existing group fitted pipeline; no retraining",
+      "prediction_csv": "outputs/bow_stack_exchange_mapping_a_predictions.csv",
+      "prediction_sha256": "1cd1b4a1f123683592bf41c4b39fdb749c74629c69a52a7261d6d4b9b3e03f46"
+    },
+    {
+      "model": "Ling",
+      "train": "Stack Exchange",
+      "path": "../results/model_Ling_se.joblib",
+      "sha256": "2dc8f7d7516bf803c3483c37143b18e19010577ed8be6792791d6ecba1b375c5",
+      "origin": "existing group fitted pipeline; no retraining",
+      "prediction_csv": "outputs/ling_stack_exchange_mapping_a_predictions.csv",
+      "prediction_sha256": "978d669f96ca7b98e8e37d8569140a8637bfc7ba43698012054397f1806521c9"
+    }
+  ]
+}

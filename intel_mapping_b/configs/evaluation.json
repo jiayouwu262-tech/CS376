@@ -1,0 +1,62 @@
+{
+  "mapping": "B",
+  "test_csv": "data/intel_test_mapping_b.csv",
+  "test_sha256": "a33ac393c9a935eb7917238686c68f0acaae85833ab70216a8045efaa3e4938e",
+  "expected": {
+    "n": 10200,
+    "positive": 5115,
+    "negative": 5085
+  },
+  "label_mapping": {
+    "polite": 1,
+    "somewhat polite": 1,
+    "neutral": 0,
+    "impolite": 0
+  },
+  "models": [
+    {
+      "model": "BoW",
+      "train": "Wikipedia",
+      "path": "../results/model_BoW_wiki.joblib",
+      "sha256": "6a29d67cc5c9fefdeb5ec0ddf443e92757d10e2189199d09b87d2ed59c51f275",
+      "origin": "existing group fitted pipeline; no retraining"
+    },
+    {
+      "model": "Ling",
+      "train": "Wikipedia",
+      "path": "../results/model_Ling_wiki.joblib",
+      "sha256": "f6ba1c19c4cdb92d832d9f7f4e39e63187d5e2714e22d2bf97db8c0177ddd68c",
+      "origin": "existing group fitted pipeline; no retraining"
+    },
+    {
+      "model": "BoW",
+      "train": "Stack Exchange",
+      "path": "../results/model_BoW_se.joblib",
+      "sha256": "406502aad0ab54b4632649154cce48d0f2d2d452d4553f30353100eda18f6f9e",
+      "origin": "existing group fitted pipeline; no retraining"
+    },
+    {
+      "model": "Ling",
+      "train": "Stack Exchange",
+      "path": "../results/model_Ling_se.joblib",
+      "sha256": "2dc8f7d7516bf803c3483c37143b18e19010577ed8be6792791d6ecba1b375c5",
+      "origin": "existing group fitted pipeline; no retraining"
+    }
+  ],
+  "strategy_columns_file": "../results/strategy_columns.txt",
+  "source_feature_cache": {
+    "test": "../intel_mapping_a/data/intel_test_mapping_a.csv",
+    "features": "../intel_mapping_a/features/ling_features.csv",
+    "manifest": "../intel_mapping_a/provenance/feature_extraction.json"
+  },
+  "reference_a_test": "../intel_mapping_a/data/intel_test_mapping_a.csv",
+  "reference_a_predictions": {
+    "BoW|Wikipedia": "../intel_mapping_a/outputs/bow_wikipedia_mapping_a_predictions.csv",
+    "Ling|Wikipedia": "../intel_mapping_a/outputs/ling_wikipedia_mapping_a_predictions.csv",
+    "BoW|Stack Exchange": "../intel_mapping_a/outputs/bow_stack_exchange_mapping_a_predictions.csv",
+    "Ling|Stack Exchange": "../intel_mapping_a/outputs/ling_stack_exchange_mapping_a_predictions.csv"
+  },
+  "source_repository": "https://github.com/jiayouwu262-tech/CS376",
+  "model_revision": "71f48b42c926feb679fc225364bea0e09f59cacb",
+  "intel_revision": "7b34586171914fa7ab75fd275aca8469e1464a64"
+}

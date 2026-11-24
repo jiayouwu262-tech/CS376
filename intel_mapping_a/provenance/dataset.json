@@ -1,0 +1,20 @@
+{
+  "mapping": "A",
+  "n": 5099,
+  "original_label_counts": {
+    "polite": 2567,
+    "impolite": 2532
+  },
+  "binary_class_counts": {
+    "1": 2567,
+    "0": 2532
+  },
+  "label_mapping": {
+    "polite": 1,
+    "impolite": 0
+  },
+  "test_sha256": "bfc550df7cdc13529278faa6e57f09f720fea48ce7e7cbeea30d35aed4c4265f",
+  "official_split": "test",
+  "new_cleaning_or_splitting": false,
+  "mapping_a_text_and_label_overlap_checked": 5099
+}

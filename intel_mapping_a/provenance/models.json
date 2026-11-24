@@ -1,0 +1,101 @@
+{
+  "model_revision": "71f48b42c926feb679fc225364bea0e09f59cacb",
+  "models": [
+    {
+      "model": "BoW",
+      "train": "Wikipedia",
+      "path": "../results/model_BoW_wiki.joblib",
+      "sha256": "6a29d67cc5c9fefdeb5ec0ddf443e92757d10e2189199d09b87d2ed59c51f275",
+      "origin": "existing group fitted pipeline; no retraining",
+      "vocabulary_size": 566,
+      "n_strategies": 0,
+      "n_features": 566,
+      "svm_params": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": "auto",
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "loss": "squared_hinge",
+        "max_iter": 20000,
+        "multi_class": "ovr",
+        "penalty": "l2",
+        "random_state": 42,
+        "tol": 0.0001,
+        "verbose": 0
+      }
+    },
+    {
+      "model": "Ling",
+      "train": "Wikipedia",
+      "path": "../results/model_Ling_wiki.joblib",
+      "sha256": "f6ba1c19c4cdb92d832d9f7f4e39e63187d5e2714e22d2bf97db8c0177ddd68c",
+      "origin": "existing group fitted pipeline; no retraining",
+      "vocabulary_size": 566,
+      "n_strategies": 21,
+      "n_features": 587,
+      "svm_params": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": "auto",
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "loss": "squared_hinge",
+        "max_iter": 20000,
+        "multi_class": "ovr",
+        "penalty": "l2",
+        "random_state": 42,
+        "tol": 0.0001,
+        "verbose": 0
+      }
+    },
+    {
+      "model": "BoW",
+      "train": "Stack Exchange",
+      "path": "../results/model_BoW_se.joblib",
+      "sha256": "406502aad0ab54b4632649154cce48d0f2d2d452d4553f30353100eda18f6f9e",
+      "origin": "existing group fitted pipeline; no retraining",
+      "vocabulary_size": 719,
+      "n_strategies": 0,
+      "n_features": 719,
+      "svm_params": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": "auto",
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "loss": "squared_hinge",
+        "max_iter": 20000,
+        "multi_class": "ovr",
+        "penalty": "l2",
+        "random_state": 42,
+        "tol": 0.0001,
+        "verbose": 0
+      }
+    },
+    {
+      "model": "Ling",
+      "train": "Stack Exchange",
+      "path": "../results/model_Ling_se.joblib",
+      "sha256": "2dc8f7d7516bf803c3483c37143b18e19010577ed8be6792791d6ecba1b375c5",
+      "origin": "existing group fitted pipeline; no retraining",
+      "vocabulary_size": 719,
+      "n_strategies": 21,
+      "n_features": 740,
+      "svm_params": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": "auto",
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "loss": "squared_hinge",
+        "max_iter": 20000,
+        "multi_class": "ovr",
+        "penalty": "l2",
+        "random_state": 42,
+        "tol": 0.0001,
+        "verbose": 0
+      }
+    }
+  ]
+}

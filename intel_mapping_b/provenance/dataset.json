@@ -1,0 +1,24 @@
+{
+  "mapping": "B",
+  "n": 10200,
+  "original_label_counts": {
+    "polite": 2567,
+    "neutral": 2553,
+    "somewhat polite": 2548,
+    "impolite": 2532
+  },
+  "binary_class_counts": {
+    "1": 5115,
+    "0": 5085
+  },
+  "label_mapping": {
+    "polite": 1,
+    "somewhat polite": 1,
+    "neutral": 0,
+    "impolite": 0
+  },
+  "test_sha256": "a33ac393c9a935eb7917238686c68f0acaae85833ab70216a8045efaa3e4938e",
+  "official_split": "test",
+  "new_cleaning_or_splitting": false,
+  "mapping_a_text_and_label_overlap_checked": 5099
+}

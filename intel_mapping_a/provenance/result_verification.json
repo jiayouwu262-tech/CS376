@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "mapping": "A",
+  "checks": [
+    {
+      "model": "BoW",
+      "train": "Wikipedia",
+      "status": "PASS",
+      "n": 5099,
+      "auc_independently_checked_by_rank_sum": true,
+      "fit_forbidden": true,
+      "mapping_a_reference_predictions_unchanged_on_shared_ids": 5099,
+      "accuracy": 0.7760345165718768,
+      "precision_polite": 0.7892813641900122,
+      "recall_polite": 0.7573042462017919,
+      "f1_polite": 0.772962226640159,
+      "roc_auc": 0.8587408787312043
+    },
+    {
+      "model": "Ling",
+      "train": "Wikipedia",
+      "status": "PASS",
+      "n": 5099,
+      "auc_independently_checked_by_rank_sum": true,
+      "fit_forbidden": true,
+      "mapping_a_reference_predictions_unchanged_on_shared_ids": 5099,
+      "accuracy": 0.8350656991566974,
+      "precision_polite": 0.8339783281733746,
+      "recall_polite": 0.839501363459291,
+      "f1_polite": 0.8367307318967191,
+      "roc_auc": 0.917567946798317
+    },
+    {
+      "model": "BoW",
+      "train": "Stack Exchange",
+      "status": "PASS",
+      "n": 5099,
+      "auc_independently_checked_by_rank_sum": true,
+      "fit_forbidden": true,
+      "mapping_a_reference_predictions_unchanged_on_shared_ids": 5099,
+      "accuracy": 0.6938615414787214,
+      "precision_polite": 0.6706241519674355,
+      "recall_polite": 0.7701597195169458,
+      "f1_polite": 0.7169537624660018,
+      "roc_auc": 0.7716908033732309
+    },
+    {
+      "model": "Ling",
+      "train": "Stack Exchange",
+      "status": "PASS",
+      "n": 5099,
+      "auc_independently_checked_by_rank_sum": true,
+      "fit_forbidden": true,
+      "mapping_a_reference_predictions_unchanged_on_shared_ids": 5099,
+      "accuracy": 0.7440674642086683,
+      "precision_polite": 0.7169876203576341,
+      "recall_polite": 0.8122321776392676,
+      "f1_polite": 0.7616438356164383,
+      "roc_auc": 0.8271348400004677
+    }
+  ]
+}
